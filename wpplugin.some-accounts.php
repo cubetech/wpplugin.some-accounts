@@ -17,6 +17,8 @@ class Wordpress_some_accounts{
 		add_action('init', array($this, 'someRegisterAction'));
 // 		add_action('admin_init', array($this, 'addIconPreviewFieldAction'));
 		add_filter('rwmb_meta_boxes', array($this, 'registerMetaboxesAction'));
+		
+		add_shortcode('some-accounts', array($this, 'shortcode'));
 	}
 	
 	function someRegisterAction() {
@@ -40,8 +42,8 @@ class Wordpress_some_accounts{
 		$args = array(
 			'labels'             => $labels,
 			'menu_icon'			 => 'dashicons-share',
-			'public'             => true,
-			'publicly_queryable' => true,
+			'public'             => false,
+			'publicly_queryable' => false,
 			'show_ui'            => true,
 			'show_in_menu'       => true,
 			'query_var'          => true,
@@ -114,6 +116,25 @@ class Wordpress_some_accounts{
 	    );
 	
 	    return $meta_boxes;
+	}
+	
+	function shortcode() {
+		ob_start();
+		// LOOK FOR TEMPLATE IN THEME
+		$template = locate_template( 'templates/social-shortcode.php' );
+		
+		// LOOK IN PLUGIN
+		if( !$template ) {
+			$template = dirname(__FILE__) . "/templates/social-shortcode.php";
+		}
+		
+		// LOAD TEMPLATE
+		if( $template ) {
+			include( $template );
+		}
+		$content = ob_get_contents();
+		ob_end_clean();
+		return $content;
 	}
 	
 }//end class
