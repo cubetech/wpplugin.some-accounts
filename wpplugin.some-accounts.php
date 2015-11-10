@@ -110,6 +110,8 @@ class Wordpress_some_accounts{
 		                'wordpress' => 'Wordpress',
 		                'share-alt' => 'Share neutral',
 		                'share-alt-square' => 'Share neutral (quadratisch)',
+		                'google-plus' => 'Google plus',
+		                'google-plus-square' => 'Google plus (quadratisch)',			                
 	                )
 	            ),
 	        )
