@@ -90,6 +90,8 @@ class Wordpress_some_accounts{
 		                'twitter' => 'Twitter',
 		                'twitter-square' => 'Twitter (quadratisch)',
 		                'instagram' => 'Instagram',
+		                'flickr' => 'Flickr',
+		                'flickr-square' => 'Flickr (quadratisch)',
 		                'xing' => 'XING',
 		                'xing-square' => 'XING (quadratisch)',
 		                'linkedin' => 'LinkedIn',
