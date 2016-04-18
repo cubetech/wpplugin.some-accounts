@@ -19,6 +19,7 @@ class Wordpress_some_accounts{
 		add_filter('rwmb_meta_boxes', array($this, 'registerMetaboxesAction'));
 		
 		add_shortcode('some-accounts', array($this, 'shortcode'));
+		add_shortcode('some-accounts-email', array($this, 'shortcode_email'));
 	}
 	
 	function someRegisterAction() {
@@ -130,6 +131,25 @@ class Wordpress_some_accounts{
 		// LOOK IN PLUGIN
 		if( !$template ) {
 			$template = dirname(__FILE__) . "/templates/social-shortcode.php";
+		}
+		
+		// LOAD TEMPLATE
+		if( $template ) {
+			include( $template );
+		}
+		$content = ob_get_contents();
+		ob_end_clean();
+		return $content;
+	}
+	
+		function shortcode_email() {
+		ob_start();
+		// LOOK FOR TEMPLATE IN THEME
+		$template = locate_template( 'templates/social-shortcode_email.php' );
+		
+		// LOOK IN PLUGIN
+		if( !$template ) {
+			$template = dirname(__FILE__) . "/templates/social-shortcode_email.php";
 		}
 		
 		// LOAD TEMPLATE
