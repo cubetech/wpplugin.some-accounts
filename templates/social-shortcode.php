@@ -10,6 +10,6 @@
 		$icon = get_post_meta($acc->ID, 'ct_some_icon' );
 		$link = get_post_meta($acc->ID, 'ct_some_link' );
 ?>
-<a href="<?=$link[0];?>" title="<?=$title;?>" target="_blank"><i class="fa fa-<?=$icon[0];?>"></i><?=$title;?></a>
+<a class="some-link" href="<?=$link[0];?>" title="<?=$title;?>" target="_blank"><i class="fa fa-<?=$icon[0];?>"></i><?=$title;?></a>
 <?php endforeach; ?>
 <?php wp_reset_postdata();?>
