@@ -9,16 +9,24 @@ Author URI: http://cubetech.ch
 */
 
 if ( !defined( 'RWMB_VER' ) ) {
-	include('metabox.io/meta-box.php');
+	include('vendor/metabox.io/meta-box.php');
 }
 
 class Wordpress_some_accounts{
 	function init(){
 		add_action('init', array($this, 'someRegisterAction'));
-// 		add_action('admin_init', array($this, 'addIconPreviewFieldAction'));
+
 		add_filter('rwmb_meta_boxes', array($this, 'registerMetaboxesAction'));
+
+		add_action( 'wp_enqueue_scripts', array($this, 'includeFontAwesome') );
 		
 		add_shortcode('some-accounts', array($this, 'shortcode'));
+	}
+	
+	function includeFontAwesome() {
+		
+		wp_enqueue_style( 'SoMe', plugin_dir_url(__FILE__) . 'vendor/font-awesome-4.6.3/css/font-awesome.min.css' , false ); 
+		
 	}
 	
 	function someRegisterAction() {
