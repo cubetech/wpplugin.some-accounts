@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Cubetech Wordpress SoMe Accounts
+Plugin Name: cubetech Wordpress SoMe Accounts
 Plugin URI: http://cubetech.ch
 Description: A plugin to add your social media accounts
 Version: 1.0
