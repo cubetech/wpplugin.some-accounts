@@ -25,7 +25,7 @@ class Wordpress_some_accounts{
 	
 	function includeFontAwesome() {
 		
-		wp_enqueue_style( 'SoMe', plugin_dir_url(__FILE__) . 'vendor/font-awesome-4.6.3/css/font-awesome.min.css' , false ); 
+		wp_enqueue_style( 'SoMe', plugin_dir_url(__FILE__) . 'vendor/font-awesome-4.7.0/css/font-awesome.min.css' , false ); 
 		
 	}
 	
@@ -139,7 +139,7 @@ class Wordpress_some_accounts{
 		if( !$template ) {
 			$template = dirname(__FILE__) . "/templates/social-shortcode.php";
 		}
-		
+
 		// LOAD TEMPLATE
 		if( $template ) {
 			include( $template );
