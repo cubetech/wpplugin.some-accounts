@@ -9,7 +9,7 @@ Add Social Media Post Type to WordPress
 *	Allows you to extend social media options
 ``` php
 function add_kununu( $options ) {
-    $options[] = 'Kununu';
+    $options['kununu'] = 'Kununu';
     return $options;
 }
 add_filter( 'some_options', 'add_kununu' );
