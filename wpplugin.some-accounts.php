@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: cubetech Wordpress SoMe Accounts
-Plugin URI: http://cubetech.ch
-Description: A plugin to add your social media accounts
-Version: 1.0
-Author: Lucas Schnüriger
-Author URI: http://cubetech.ch
+Plugin Name: cubetech WordPress SoMe Accounts
+Plugin URI: https://github.com/cubetech/wpplugin.some-accounts
+Description: A plugin to add your social media accounts to your theme or content
+Version: 1.1.0
+Author: cubetech GmbH
+Author URI: https://www.cubetech.ch
 */
 
 if ( !defined( 'RWMB_VER' ) ) {

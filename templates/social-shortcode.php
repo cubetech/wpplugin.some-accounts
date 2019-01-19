@@ -3,6 +3,9 @@
 	global $wp_query;
 	$social = get_posts(array(
 		'post_type' => 'someaccs',
+		'orderby' => 'menu_order',
+		'order' => 'ASC',
+		'numberposts' => -1,
 	));
 
 	foreach($social as $acc) :
