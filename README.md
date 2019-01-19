@@ -26,7 +26,7 @@ add_filter( 'cubetech/plugin/some-accounts/options', 'add_kununu' );
 
 *Warning!* The filter `some_options` is deprecated! Please replace! Will be removed soon.
  
-## Version: 1.1.0
+## Version: 1.1.2
 
 ## Person Responsible
 
@@ -40,6 +40,10 @@ Christoph S. Ackermann @acki
 * Pascal Knecht
 
 ## Changelog
+
+### 1.1.2 2019-01-19
+
+* Fixed README
 
 ### 1.1.1 2019-01-19
 
