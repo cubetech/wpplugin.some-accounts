@@ -3,7 +3,7 @@
 Plugin Name: cubetech WordPress SoMe Accounts
 Plugin URI: https://github.com/cubetech/wpplugin.some-accounts
 Description: A plugin to add your social media accounts to your theme or content
-Version: 1.1.1
+Version: 1.1.2
 Author: cubetech GmbH
 Author URI: https://www.cubetech.ch
 */
