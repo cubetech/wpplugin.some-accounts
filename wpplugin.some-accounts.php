@@ -3,7 +3,7 @@
 Plugin Name: cubetech WordPress SoMe Accounts
 Plugin URI: https://github.com/cubetech/wpplugin.some-accounts
 Description: A plugin to add your social media accounts to your theme or content
-Version: 1.1.0
+Version: 1.1.1
 Author: cubetech GmbH
 Author URI: https://www.cubetech.ch
 */
@@ -133,7 +133,8 @@ class Wordpress_some_accounts{
             'google-plus-square' => 'Google plus (quadratisch)',
         );
 
-        return apply_filters( 'some_options', $options );
+        $options = apply_filters_deprecated( 'some_options', array( $options ), '4.7', 'cubetech/plugin/some-accounts/options' );
+        return apply_filters( 'cubetech/plugin/some-accounts/options', $options );
     }
 	
 	function shortcode() {
