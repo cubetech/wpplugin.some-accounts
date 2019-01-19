@@ -21,8 +21,10 @@ function add_kununu( $options ) {
     $options['kununu'] = 'Kununu';
     return $options;
 }
-add_filter( 'some_options', 'add_kununu' );
+add_filter( 'cubetech/plugin/some-accounts/options', 'add_kununu' );
 ```
+
+*Warning!* The filter `some_options` is deprecated! Please replace! Will be removed soon.
  
 ## Version: 1.1.0
 
@@ -38,6 +40,10 @@ Christoph S. Ackermann @acki
 * Pascal Knecht
 
 ## Changelog
+
+### 1.1.1 2019-01-19
+
+* Replaced the filter name and added deprecated warning
 
 ### 1.1.0 2019-01-19
 
