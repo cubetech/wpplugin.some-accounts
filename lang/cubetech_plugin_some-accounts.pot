@@ -1,0 +1,253 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubetech WordPress SoMe Accounts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-20 11:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: wpplugin.some-accounts.php:48
+msgctxt "someaccs"
+msgid "Social media accounts"
+msgstr ""
+
+#: wpplugin.some-accounts.php:49
+msgctxt "someacc"
+msgid "SoMe account"
+msgstr ""
+
+#: wpplugin.some-accounts.php:50
+msgctxt "someaccs"
+msgid "SoMe accounts"
+msgstr ""
+
+#: wpplugin.some-accounts.php:51
+msgctxt "someaccs"
+msgid "SoMe account"
+msgstr ""
+
+#: wpplugin.some-accounts.php:52
+msgctxt "someacc"
+msgid "New account"
+msgstr ""
+
+#: wpplugin.some-accounts.php:53
+msgid "Add new account"
+msgstr ""
+
+#: wpplugin.some-accounts.php:54
+msgid "New account"
+msgstr ""
+
+#: wpplugin.some-accounts.php:55
+msgid "Edit account"
+msgstr ""
+
+#: wpplugin.some-accounts.php:56
+msgid "View account"
+msgstr ""
+
+#: wpplugin.some-accounts.php:57
+msgid "All accounts"
+msgstr ""
+
+#: wpplugin.some-accounts.php:58
+msgid "Search accounts"
+msgstr ""
+
+#: wpplugin.some-accounts.php:59
+msgid "Parent accounts:"
+msgstr ""
+
+#: wpplugin.some-accounts.php:60
+msgid "No accounts found"
+msgstr ""
+
+#: wpplugin.some-accounts.php:61
+msgid "No accounts in trash"
+msgstr ""
+
+#: wpplugin.some-accounts.php:91
+msgid "Informations for the account"
+msgstr ""
+
+#: wpplugin.some-accounts.php:98
+msgid "Link"
+msgstr ""
+
+#: wpplugin.some-accounts.php:99
+msgid "Link to the account on the platform"
+msgstr ""
+
+#: wpplugin.some-accounts.php:105
+msgid "Icon"
+msgstr ""
+
+#: wpplugin.some-accounts.php:106
+msgid "Uses FontAwesome icons (http://fontawesome.io/icons/#brand)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:121
+msgid "Facebook"
+msgstr ""
+
+#: wpplugin.some-accounts.php:122
+msgid "Facebook (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:123
+msgid "Facebook (official)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:124
+msgid "Twitter"
+msgstr ""
+
+#: wpplugin.some-accounts.php:125
+msgid "Twitter (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:126
+msgid "Instagram"
+msgstr ""
+
+#: wpplugin.some-accounts.php:127
+msgid "Flickr"
+msgstr ""
+
+#: wpplugin.some-accounts.php:128
+msgid "Flickr (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:129
+msgid "XING"
+msgstr ""
+
+#: wpplugin.some-accounts.php:130
+msgid "XING (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:131
+msgid "LinkedIn"
+msgstr ""
+
+#: wpplugin.some-accounts.php:132
+msgid "LinkedIn (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:133
+msgid "Pinterest"
+msgstr ""
+
+#: wpplugin.some-accounts.php:134
+msgid "Pinterest (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:135
+msgid "Tumblr"
+msgstr ""
+
+#: wpplugin.some-accounts.php:136
+msgid "Tumblr (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:137
+msgid "YouTube"
+msgstr ""
+
+#: wpplugin.some-accounts.php:138
+msgid "YouTube (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:139
+msgid "YouTube (play icon)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:140
+msgid "Vimeo"
+msgstr ""
+
+#: wpplugin.some-accounts.php:141
+msgid "Vimeo (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:142
+msgid "Dribbble"
+msgstr ""
+
+#: wpplugin.some-accounts.php:143
+msgid "DeviantArt"
+msgstr ""
+
+#: wpplugin.some-accounts.php:144
+msgid "Behance"
+msgstr ""
+
+#: wpplugin.some-accounts.php:145
+msgid "Behance (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:146
+msgid "GitHub"
+msgstr ""
+
+#: wpplugin.some-accounts.php:147
+msgid "GitHub (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:148
+msgid "WordPress"
+msgstr ""
+
+#: wpplugin.some-accounts.php:149
+msgid "Share"
+msgstr ""
+
+#: wpplugin.some-accounts.php:150
+msgid "Share (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:151
+msgid "Google plus"
+msgstr ""
+
+#: wpplugin.some-accounts.php:152
+msgid "Google plus (square)"
+msgstr ""
+
+#: wpplugin.some-accounts.php:153
+msgid "RSS feed"
+msgstr ""
+
+#: wpplugin.some-accounts.php:154
+msgid "RSS feed (square)"
+msgstr ""
+
+#. Name of the plugin
+msgid "cubetech WordPress SoMe Accounts"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin to add your social media accounts to your theme or content"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/cubetech/wpplugin.some-accounts"
+msgstr ""
+
+#. Author of the plugin
+msgid "cubetech GmbH"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.cubetech.ch"
+msgstr ""

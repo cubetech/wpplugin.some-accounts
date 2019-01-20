@@ -25,8 +25,13 @@ add_filter( 'cubetech/plugin/some-accounts/options', 'add_kununu' );
 ```
 
 *Warning!* The filter `some_options` is deprecated! Please replace! Will be removed soon.
+
+## Translations
+
+* German (de_DE) - added by Acki 2019-01-20
+* English (en_US) - added by Acki 2019-01-20
  
-## Version: 1.1.2
+## Version: 1.2.0
 
 ## Person Responsible
 
@@ -40,6 +45,20 @@ Christoph S. Ackermann @acki
 * Pascal Knecht
 
 ## Changelog
+
+### 1.2.0 2019-01-20
+
+* Added translation function to all texts
+* Created pot template
+* Added Vimeo icon
+* New text domain
+* Configured translation options in file header
+* Added de&lowbar;DE and en&lowbar;US
+* Added Loco Translate configuration XML -> loco.xml
+
+### 1.1.3 2019-01-20
+
+* Added RSS Feed icon
 
 ### 1.1.2 2019-01-19
 
