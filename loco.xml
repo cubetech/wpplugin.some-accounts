@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="cubetech WordPress SoMe Accounts">
+  <domain name="cubetech_plugin_some-accounts">
+    <project name="cubetech WordPress SoMe Accounts" slug="cubetech_plugin_some-accounts">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>lang</directory>
+      </target>
+      <template>
+        <file>lang/cubetech_plugin_some-accounts.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>vendor</directory>
+  </exclude>
+</bundle>
