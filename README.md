@@ -31,7 +31,7 @@ add_filter( 'cubetech/plugin/some-accounts/options', 'add_kununu' );
 * German (de_DE) - added by Acki 2019-01-20
 * English (en_US) - added by Acki 2019-01-20
  
-## Version: 1.2.0
+## Version: 1.3.0
 
 ## Person Responsible
 
@@ -45,6 +45,10 @@ Christoph S. Ackermann @acki
 * Pascal Knecht
 
 ## Changelog
+
+### 1.3.0 2019-01-20
+
+* Added custom columns in backend for showing link and icon on posts overview
 
 ### 1.2.0 2019-01-20
 

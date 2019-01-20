@@ -3,7 +3,7 @@
 Plugin Name: cubetech WordPress SoMe Accounts
 Plugin URI: https://github.com/cubetech/wpplugin.some-accounts
 Description: A plugin to add your social media accounts to your theme or content
-Version: 1.2.0
+Version: 1.3.0
 Author: cubetech GmbH
 Author URI: https://www.cubetech.ch
 Text Domain: cubetech_plugin_some-accounts
@@ -23,10 +23,16 @@ class Cubetech_Plugin_Some_Accounts {
 		add_filter('rwmb_meta_boxes', array($this, 'registerMetaboxesAction'));
 
 		add_action( 'wp_enqueue_scripts', array($this, 'includeFontAwesome') );
+		add_action( 'admin_enqueue_scripts', array($this, 'includeFontAwesome') );
 		
 		add_shortcode('some-accounts', array($this, 'shortcode'));
 
 		add_action('plugins_loaded', array($this, 'load_textdomain'));
+
+		// Add the custom columns to the book post type
+		add_filter( 'manage_someaccs_posts_columns', array($this, 'set_custom_edit_someaccs_columns') );
+		// Add the data to the custom columns for the book post type
+		add_action( 'manage_someaccs_posts_custom_column' , array($this, 'custom_someaccs_column'), 10, 2 );
 
 	}
 	
@@ -180,6 +186,35 @@ class Cubetech_Plugin_Some_Accounts {
 
 	}
 	
+	function set_custom_edit_someaccs_columns($columns) {
+
+		$offset = -1;
+
+		$new = array_slice($columns, 0, $offset, true) +
+	    array( 'someaccs_icon' => __( 'Icon', 'cubetech_plugin_some-accounts' ) ) +
+	    array( 'someaccs_link' => __( 'Link', 'cubetech_plugin_some-accounts' ) ) +
+	    array_slice($columns, $offset, NULL, true);
+
+		return $new;
+
+	}
+
+	function custom_someaccs_column( $column, $post_id ) {
+
+	    switch ( $column ) {
+	
+	        case 'someaccs_icon' :
+	            echo '<i style="font-size: 24px;" class="fa fa-' . get_post_meta($post_id, 'ct_some_icon' )[0] . '"></i>';
+	            break;
+	
+	        case 'someaccs_link' :
+	            echo get_post_meta($post_id, 'ct_some_link' )[0]; 
+	            break;
+	
+	    }
+
+	}
+
 }//end class
 
 $var = new Cubetech_Plugin_Some_Accounts();
