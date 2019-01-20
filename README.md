@@ -1,5 +1,7 @@
 # wpplugin.some-accounts
 
+![Screenshot](screenshot.png)
+
 ## Description:
 
 Add Social Media Post Type to WordPress
@@ -31,7 +33,7 @@ add_filter( 'cubetech/plugin/some-accounts/options', 'add_kununu' );
 * German (de_DE) - added by Acki 2019-01-20
 * English (en_US) - added by Acki 2019-01-20
  
-## Version: 1.3.0
+## Version: 1.3.1
 
 ## Person Responsible
 
@@ -45,6 +47,10 @@ Christoph S. Ackermann @acki
 * Pascal Knecht
 
 ## Changelog
+
+### 1.3.1 2019-01-20
+
+* Added screenshot to README
 
 ### 1.3.0 2019-01-20
 
