@@ -131,6 +131,8 @@ class Wordpress_some_accounts{
             'share-alt-square' => 'Share neutral (quadratisch)',
             'google-plus' => 'Google plus',
             'google-plus-square' => 'Google plus (quadratisch)',
+            'rss' => 'RSS Feed',
+            'rss-square' => 'RSS Feed (quadratisch)',
         );
 
         $options = apply_filters_deprecated( 'some_options', array( $options ), '4.7', 'cubetech/plugin/some-accounts/options' );
