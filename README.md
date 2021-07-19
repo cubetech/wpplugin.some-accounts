@@ -33,7 +33,7 @@ add_filter( 'cubetech/plugin/some-accounts/options', 'add_kununu' );
 * German (de_DE) - added by Acki 2019-01-20
 * English (en_US) - added by Acki 2019-01-20
  
-## Version: 1.3.1
+## Version: 1.4.0
 
 ## Person Responsible
 
@@ -47,6 +47,11 @@ Christoph S. Ackermann @acki
 * Pascal Knecht
 
 ## Changelog
+
+### 1.4.0 2021-07-19
+
+* Added new version of Font Awesome (5.15.3)
+* Added WhatsApp, TikTok, Discord
 
 ### 1.3.1 2019-01-20
 

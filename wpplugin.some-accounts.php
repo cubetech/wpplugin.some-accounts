@@ -3,7 +3,7 @@
 Plugin Name: cubetech WordPress SoMe Accounts
 Plugin URI: https://github.com/cubetech/wpplugin.some-accounts
 Description: A plugin to add your social media accounts to your theme or content
-Version: 1.3.1
+Version: 1.4.0
 Author: cubetech GmbH
 Author URI: https://www.cubetech.ch
 Text Domain: cubetech_plugin_some-accounts
@@ -44,7 +44,7 @@ class Cubetech_Plugin_Some_Accounts {
 
 	function includeFontAwesome() {
 		
-		wp_enqueue_style( 'SoMe', plugin_dir_url(__FILE__) . 'vendor/font-awesome-4.7.0/css/font-awesome.min.css' , false ); 
+		wp_enqueue_style( 'cubetech-some-accounts', plugin_dir_url(__FILE__) . 'vendor/fontawesome-free-5.15.3-web/css/brands.min.css' , false ); 
 		
 	}
 	
@@ -126,12 +126,16 @@ class Cubetech_Plugin_Some_Accounts {
         $options = array(
             'facebook' => __( 'Facebook', 'cubetech_plugin_some-accounts' ),
             'facebook-square' => __( 'Facebook (square)', 'cubetech_plugin_some-accounts' ),
-            'facebook-official' => __( 'Facebook (official)', 'cubetech_plugin_some-accounts' ),
+            'facebook-f' => __( 'Facebook (official)', 'cubetech_plugin_some-accounts' ),
             'twitter' => __( 'Twitter', 'cubetech_plugin_some-accounts' ),
             'twitter-square' => __( 'Twitter (square)', 'cubetech_plugin_some-accounts' ),
             'instagram' => __( 'Instagram', 'cubetech_plugin_some-accounts' ),
             'flickr' => __( 'Flickr', 'cubetech_plugin_some-accounts' ),
             'flickr-square' => __( 'Flickr (square)', 'cubetech_plugin_some-accounts' ),
+            'whatsapp' => __( 'WhatsApp', 'cubetech_plugin_some-accounts' ),
+            'whatsapp-square' => __( 'WhatsApp (square)', 'cubetech_plugin_some-accounts' ),
+            'tiktok' => __( 'TikTok', 'cubetech_plugin_some-accounts' ),
+            'discord' => __( 'Discord', 'cubetech_plugin_some-accounts' ),
             'xing' => __( 'XING', 'cubetech_plugin_some-accounts' ),
             'xing-square' => __( 'XING (square)', 'cubetech_plugin_some-accounts' ),
             'linkedin' => __( 'LinkedIn', 'cubetech_plugin_some-accounts' ),
